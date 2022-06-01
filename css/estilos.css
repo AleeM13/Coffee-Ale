@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-size: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px 2px 20px;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0px 7px 4px -3px #ccc;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.navbar ul {
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.6em;
+    transition: all .2s;
+    padding-bottom: 3px;
+}
+
+.navbar ul a:hover {
+    border-bottom: 3px solid #2a9d8f;
+    color: #2a9d8f;
+}
+
+.parte {
+    background-color: #D4E9E2;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.parte img {
+    width: 50%;
+}
+
+.parte2 {
+    background-color: #F1F8F6;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.parte2 .info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info h2 {
+    font-size: 1.2em;
+    color: #006241;
+    width: 88%;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 600;
+}
+
+.info button {
+    color: #006241;
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #006241;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 700;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.parte2 .img {
+    width: 50%;
+}
+
+.parte3 {
+    background-color: #F1F8F6;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.parte3 .info {
+    width: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parte3 .img {
+    width: 50%;
+}
+
+.parte3 .info h2 {
+    font-size: 1.8em;
+}
+
+.parte3 .info p {
+    color: #006241;
+    font-size: 1.3em;
+    width: 70%;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 25px;
+}
+
+footer {
+    box-shadow: 0px -1px 4px -3px #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+footer .redes {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    margin: 20px;
+}
+
+a ion-icon  {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    background-color: #000;
+    border-radius: 50px;
+    padding: 6px;
+    transition: all .3s;
+}
+
+a ion-icon:hover {
+    background-color: #fff;
+    color: #2a9d8f;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    margin-right: 60px;
+}
+
+.about ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+}
+
+.about a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-bottom: 8px;
+    transition: all .2s;
+}
+
+.about a:hover {
+    color: #2a9d8f;
+    border-bottom: 3px solid #2a9d8f;
+}
+
+/* MENU */
+.disfruta {
+    font-size: 1.4em;
+    font-weight: 500;
+    margin: 30px 0 0 30px;
+}
+
+h1 {
+    font-size: 2.1em;
+    margin: 5px 0 40px 30px;
+    width: 45%;
+}
+
+.bebidas_h3 {
+    width: 95%;
+    font-size: 1.3em;
+    margin-left: 30px;
+    padding: 20px 0;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    margin-bottom: 40px;
+}
+
+.bebidas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bebidas1 {
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bebidas2 {
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bebidas3 {
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bebidas4 {
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bebidas5 {
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bebidas6 {
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bebidas7 {
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bebidas img {
+    width: 180px;
+    height: 180px;
+    padding: 5px;
+    background-color: #1E3932;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bebidas img:hover {
+    border: 10px solid #D4E9E2;
+}
+
+span {
+    display: block;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin: 30px;
+}
+
+.comidas_h3 {
+    width: 95%;
+    font-size: 1.3em;
+    margin-left: 30px;
+    padding: 20px 0;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    margin-bottom: 40px;
+}
+
+.comidas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.comidas1 {
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comidas2 {
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comidas3 {
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comidas img {
+    width: 180px;
+    height: 180px;
+    background-color: #1E3932;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.comidas img:hover {
+    border: 10px solid #D4E9E2;
+}
+
+.casa_h3 {
+    width: 95%;
+    font-size: 1.3em;
+    margin-left: 30px;
+    padding: 20px 0;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    margin-bottom: 40px;
+}
+
+.casa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.casa1 {
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.casa2 {
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.casa img {
+    width: 180px;
+    height: 180px;
+    background-color: #1E3932;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.casa img:hover {
+    border: 10px solid #D4E9E2;
+}
+
+/* ACERCA DE NOSOTROS */
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.3em;
+    text-align: center;
+    background-color: #1E3932;
+    width: 100%;
+    height: 130px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.nosotros img {
+    margin: 70px;
+}
+
+.nosotros p {
+    font-size: 1.4em;
+    text-align: center;
+    width: 56%;
+    margin-bottom: 70px;
+}
+
+.nosotros span {
+    font-size: 1.4em;
+    margin: 0 0 30px 0;
+}
+
+.nosotros h2 {
+    font-size: 2.1em;
+    margin: 30px 0 60px 0;
+}
+
+/* NUESTRA MISIÓN */
+.mision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mision h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.3em;
+    text-align: center;
+    background-color: #1E3932;
+    width: 100%;
+    height: 180px;
+    color: #fff;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
+.mision p {
+    font-size: 1.4em;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.mision h3 {
+    font-size: 2.2em;
+    margin: 25px 0 15px 0;
+}
+
+/* NUESTRO CAFÉ */
+.cafe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cafe h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.3em;
+    text-align: center;
+    background-color: #1E3932;
+    width: 100%;
+    height: 180px;
+    color: #fff;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
+.cafe p {
+    font-size: 1.4em;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.cafe h3 {
+    font-size: 2.2em;
+    margin: 25px 0 15px 0;
+}
+
+.cafe h4 {
+    font-size: 1.7em;
+    margin: 25px 0 15px 0;
+}
+
+.cafe img {
+    margin: 10px 0 50px 0;
+}
+
+/* CONTACTO */
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.3em;
+    text-align: center;
+    background-color: #1E3932;
+    width: 100%;
+    height: 180px;
+    color: #fff;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto label {
+    font-size: 1.4em;
+    margin: 20px 0;
+}
+
+.contacto input {
+    width: 550px;
+    height: 35px;
+    padding: 7px;
+    background: transparent;
+    border: none;
+    border: 2px solid #1E3932;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.contacto input::placeholder {
+    font-size: 1.1em;
+}
+
+.contacto textarea {
+    width: 550px;
+    height: 210px;
+    padding: 4px;
+    background: transparent;
+    border: none;
+    border: 2px solid #1E3932;
+    border-radius: 5px;
+    resize: none;
+    font-size: 1.2em;
+}
+
+.contacto textarea::placeholder {
+    font-size: 1.1em;
+}
+
+.contacto button {
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid #1E3932;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #1E3932;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.canales {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+    margin: 40px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.canales h5 {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.canales p {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.canales span {
+    margin: 0;
+    font-size: 1.2em;
+}
