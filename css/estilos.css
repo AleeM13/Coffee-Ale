@@ -14,6 +14,8 @@ body {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     width: 70px;
     height: 70px;
 }
@@ -560,6 +562,7 @@ span {
     color: #1E3932;
     margin: 30px;
     cursor: pointer;
+    background: transparent;
 }
 
 .canales {
@@ -587,4 +590,899 @@ span {
 .canales span {
     margin: 0;
     font-size: 1.2em;
+}
+
+@media (min-width: 800px) and (max-width: 1150px) {
+    .navbar ul {
+        width: 55%;
+    }
+
+    .parte3 .info h2 {
+        font-size: 1.1em;
+    }
+
+    .parte3 .info p {
+        margin: 5px;
+        font-size: 1em;
+    }
+
+    .parte3 .info button {
+        margin: 10px;
+        height: 25px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 800px) {
+    .navbar ul {
+        width: 80%;
+        font-size: .8em;
+    }
+
+    .navbar img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .parte img {
+        width: 100%;
+    }
+
+    .parte2 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .parte2 .img {
+        width: 100%;
+    }
+
+    .parte2 .info {
+        width: 100%;
+    }
+
+    .parte3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parte3 .img {
+        width: 100%;
+    }
+
+    .parte3 .info {
+        width: 100%;
+    }
+
+    .parte3 .info h2 {
+        font-size: 1.3em;
+    }
+
+    .parte3 .info .p {
+        font-size: 1.1em;
+        margin: 10px;
+    }
+
+    .info button {
+        margin-bottom: 30px;
+    }
+
+    footer {
+        margin: 20px 0;
+    }
+    
+    footer .redes {
+        width: 40%;
+        margin: 10px;
+    }
+    
+    a ion-icon  {
+        font-size: 1.2em;
+    }
+    
+    a ion-icon:hover {
+        background-color: #fff;
+        color: #2a9d8f;
+    }
+    
+    .about {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        justify-content: center;
+        margin-right: 40px;
+    }
+    
+    .about ul{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        width: 100%;
+        margin: 10px;
+    }
+    
+    .about a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1.1em;
+        font-weight: 500;
+        padding-bottom: 8px;
+        transition: all .2s;
+    }
+    
+    .about a:hover {
+        color: #2a9d8f;
+        border-bottom: 3px solid #2a9d8f;
+    }
+
+    .disfruta {
+        font-size: 1.2em;
+        font-weight: 500;
+        margin: 30px 0 0 30px;
+    }
+    
+    h1 {
+        font-size: 1.6em;
+        margin: 5px 0 40px 30px;
+        width: 92%;
+    }
+    
+    .bebidas_h3 {
+        width: 90%;
+        font-size: 1.3em;
+        margin-left: 30px;
+        padding: 20px 0;
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+        margin-bottom: 40px;
+    }
+    
+    .bebidas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bebidas1 {
+        margin: 20px;
+        width: 10em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bebidas2 {
+        margin: 20px;
+        width: 10em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bebidas3 {
+        margin: 20px;
+        width: 10em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bebidas4 {
+        margin: 20px;
+        width: 10em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bebidas5 {
+        margin: 20px;
+        width: 10em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bebidas6 {
+        margin: 20px;
+        width: 10em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bebidas7 {
+        margin: 20px;
+        width: 10em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bebidas img {
+        width: 170px;
+        height: 170px;
+        padding: 5px;
+        background-color: #1E3932;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .bebidas img:hover {
+        border: 8px solid #D4E9E2;
+    }
+    
+    span {
+        display: block;
+        font-size: 1.3em;
+        font-weight: 500;
+        margin: 30px 0;
+    }
+    
+    .comidas_h3 {
+        width: 90%;
+        font-size: 1.3em;
+        margin-left: 30px;
+        padding: 20px 0;
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+        margin-bottom: 40px;
+    }
+    
+    .comidas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .comidas1 {
+        margin: 20px;
+        width: 10em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .comidas2 {
+        margin: 20px;
+        width: 10em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .comidas3 {
+        margin: 20px;
+        width: 10em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .comidas img {
+        width: 170px;
+        height: 170px;
+        background-color: #1E3932;
+        border-radius: 50%;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    .comidas img:hover {
+        border: 8px solid #D4E9E2;
+    }
+    
+    .casa_h3 {
+        width: 90%;
+        font-size: 1.3em;
+        margin-left: 30px;
+        padding: 20px 0;
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+        margin-bottom: 40px;
+    }
+    
+    .casa {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .casa1 {
+        margin: 20px;
+        width: 10em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .casa2 {
+        margin: 20px;
+        width: 10em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .casa img {
+        width: 170px;
+        height: 170px;
+        background-color: #1E3932;
+        border-radius: 50%;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    .casa img:hover {
+        border: 8px solid #D4E9E2;
+    }
+    
+    .nosotros h1 {
+        font-size: 2em;
+        width: 100%;
+        height: 90px;
+    }
+
+    .nosotros p {
+        font-size: 1.2em;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    
+    .nosotros span {
+        font-size: 1.3em;
+        margin: 0 0 20px 0;
+    }
+    
+    .nosotros h2 {
+        font-size: 1.5em;
+        margin: 20px 0 40px 0;
+    }
+
+    .mision h1 {
+        font-size: 2em;
+        width: 100%;
+        height: 90px;
+    }
+    
+    .mision p {
+        font-size: 1.3em;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    .mision h3 {
+        font-size: 1.7em;
+        margin: 10px 0 15px 0;
+        text-align: center;
+    }
+    
+    /* NUESTRO CAFÉ */
+    .cafe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cafe h1 {
+        font-size: 2em;
+        width: 100%;
+        height: 90px;
+    }
+    
+    .cafe p {
+        font-size: 1.3em;
+        text-align: center;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    
+    .cafe h3 {
+        font-size: 1.7em;
+        margin: 25px 0 15px 0;
+        text-align: center;
+    }
+    
+    .cafe h4 {
+        font-size: 1.4em;
+        margin: 25px 0 15px 0;
+    }
+    
+    .cafe img {
+        margin: 10px 0 20px 0;
+    }
+    
+    /* CONTACTO */
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contacto h1 {
+        font-size: 2em;
+        width: 100%;
+        height: 110px;
+    }
+
+    .contacto label {
+        font-size: 1.3em;
+        margin: 20px 0;
+    }
+    
+    .contacto input {
+        width: 400px;
+        font-size: 1em;
+    }
+    
+    .contacto textarea {
+        width: 420px;
+        height: 180px;
+        font-size: 1.1em;
+    }
+
+    .contacto button {
+        width: 180px;
+    }
+    
+    .canales {
+        width: 75%;
+    }
+    
+    .canales h5 {
+        font-size: 1.4em;
+        font-weight: 500;
+    }
+    
+    .canales p {
+        font-size: 1.3em;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    
+    .canales span {
+        margin: 0;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 450px) {
+    .navbar  {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul {
+        width: 100%;
+        font-size: .75em;
+    }
+
+    .navbar img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .parte img {
+        width: 100%;
+    }
+
+    .parte2 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .parte2 .img {
+        width: 100%;
+    }
+
+    .parte2 .info {
+        width: 100%;
+    }
+
+    .parte2 .info h2 {
+        font-size: 1.1em;
+    }
+
+    .parte2 .info button {
+        width: 170px;
+        font-size: .8em;
+        margin: 20px;
+    }
+
+    .parte3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parte3 .img {
+        width: 100%;
+    }
+
+    .parte3 .info {
+        width: 100%;
+    }
+
+    .parte3 .info h2 {
+        font-size: 1.1em;
+    }
+
+    .parte3 .info .p {
+        font-size: .7em;
+        margin: 5px;
+    }
+
+    .info button {
+        width: 170px;
+        font-size: .8em;
+        margin: 20px;
+    }
+
+    footer {
+        margin: 20px 0;
+    }
+    
+    footer .redes {
+        width: 40%;
+        margin: 10px;
+    }
+    
+    a ion-icon  {
+        font-size: 1.1em;
+    }
+    
+    a ion-icon:hover {
+        background-color: #fff;
+        color: #2a9d8f;
+    }
+    
+    .about {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        margin-right: 45px;
+    }
+    
+    .about ul{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        width: 95%;
+        margin: 10px;
+    }
+    
+    .about a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1em;
+        font-weight: 500;
+        padding-bottom: 8px;
+        transition: all .2s;
+    }
+    
+    .about a:hover {
+        color: #2a9d8f;
+        border-bottom: 3px solid #2a9d8f;
+    }
+
+    .disfruta {
+        font-size: 1.2em;
+        font-weight: 500;
+        margin: 30px 0 0 30px;
+    }
+    
+    h1 {
+        font-size: 1.4em;
+        margin: 5px 0 40px 30px;
+        width: 90%;
+    }
+    
+    .bebidas_h3 {
+        width: 80%;
+        font-size: 1.2em;
+        margin-left: 30px;
+        padding: 20px 0;
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+        margin-bottom: 40px;
+    }
+    
+    .bebidas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bebidas1 {
+        margin: 20px;
+        width: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bebidas2 {
+        margin: 20px;
+        width: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bebidas3 {
+        margin: 20px;
+        width: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bebidas4 {
+        margin: 20px;
+        width: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bebidas5 {
+        margin: 20px;
+        width: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bebidas6 {
+        margin: 20px;
+        width: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bebidas7 {
+        margin: 20px;
+        width: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bebidas img {
+        width: 140px;
+        height: 140px;
+        padding: 5px;
+        background-color: #1E3932;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .bebidas img:hover {
+        border: 8px solid #D4E9E2;
+    }
+    
+    span {
+        display: block;
+        font-size: 1.2em;
+        font-weight: 500;
+        margin: 30px 0;
+    }
+    
+    .comidas_h3 {
+        width: 80%;
+        font-size: 1.2em;
+        margin-left: 30px;
+        padding: 20px 0;
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+        margin-bottom: 40px;
+    }
+    
+    .comidas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .comidas1 {
+        margin: 20px;
+        width: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .comidas2 {
+        margin: 20px;
+        width: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .comidas3 {
+        margin: 20px;
+        width: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .comidas img {
+        width: 140px;
+        height: 140px;
+        background-color: #1E3932;
+        border-radius: 50%;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    .comidas img:hover {
+        border: 8px solid #D4E9E2;
+    }
+    
+    .casa_h3 {
+        width: 80%;
+        font-size: 1.2em;
+        margin-left: 30px;
+        padding: 20px 0;
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+        margin-bottom: 40px;
+    }
+    
+    .casa {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .casa1 {
+        margin: 20px;
+        width: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .casa2 {
+        margin: 20px;
+        width: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .casa img {
+        width: 140px;
+        height: 140px;
+        background-color: #1E3932;
+        border-radius: 50%;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    .casa img:hover {
+        border: 8px solid #D4E9E2;
+    }
+    
+    .nosotros h1 {
+        font-size: 1.8em;
+        width: 100%;
+        height: 90px;
+    }
+
+    .nosotros p {
+        font-size: 1.1em;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    
+    .nosotros span {
+        font-size: 1.3em;
+        margin: 0 0 20px 0;
+    }
+    
+    .nosotros h2 {
+        font-size: 1.3em;
+        margin: 20px 0 30px 0;
+    }
+
+    .mision h1 {
+        font-size: 1.8em;
+        width: 100%;
+        height: 90px;
+    }
+    
+    .mision p {
+        font-size: 1.1em;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    
+    .mision h3 {
+        font-size: 1.5em;
+        margin: 10px 0 15px 0;
+        text-align: center;
+    }
+    
+    /* NUESTRO CAFÉ */
+    .cafe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cafe h1 {
+        font-size: 1.8em;
+        width: 100%;
+        height: 90px;
+    }
+    
+    .cafe p {
+        font-size: 1.1em;
+        text-align: center;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    
+    .cafe h3 {
+        font-size: 1.5em;
+        margin: 10px 0 15px 0;
+        text-align: center;
+    }
+    
+    .cafe h4 {
+        font-size: 1.2em;
+        margin: 10px;
+    }
+    
+    .cafe img {
+        margin: 10px 0 20px 0;
+    }
+    
+    /* CONTACTO */
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contacto h1 {
+        font-size: 1.8em;
+        width: 100%;
+        height: 100px;
+    }
+
+    .contacto label {
+        font-size: 1.2em;
+        margin: 20px 0;
+    }
+    
+    .contacto input {
+        width: 300px;
+        font-size: 1em;
+    }
+    
+    .contacto textarea {
+        width: 310px;
+        height: 180px;
+        font-size: 1.1em;
+    }
+
+    .contacto button {
+        width: 160px;
+    }
+    
+    .canales {
+        width: 85%;
+    }
+    
+    .canales h5 {
+        font-size: 1.4em;
+        font-weight: 500;
+    }
+    
+    .canales p {
+        font-size: 1.3em;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    
+    .canales span {
+        margin: 0;
+        font-size: 1.2em;
+    }
 }
